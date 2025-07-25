@@ -1,7 +1,7 @@
 import express from "express"
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import dotenv from "";
+import dotenv from "dotenv";
 import { connect } from "mongoose";
 import connectDB from "./utils/db.js";
 import userRout from "./routes/user.rout.js"
